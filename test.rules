@@ -1,0 +1,17 @@
+![image-20220318184716558](C:\Users\stack\AppData\Roaming\Typora\typora-user-images\image-20220318184716558.png)
+
+alert tcp any any -> any 8080(
+
+​	msg:"TEST ALERT";
+
+​	flags:A;
+
+​	content:"I am IDS Homework 1";
+
+​	depth:100;
+
+​	within:100
+
+
+
+)
